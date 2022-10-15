@@ -1,3 +1,11 @@
 josegpt-server
 ==============
-    configuration for my web server
+	configuration for my web server
+
+notes
+-----
+	* create folders
+		# mkdir -p /var/www/htdocs/josegptcom/cdn
+		# mkdir -p /var/www/htdocs/ptserverorg/ftp
+	* run acme-client {josegpt.com,ptserver.org}
+	* reload {httpd, relayd}
