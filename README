@@ -1,8 +1,8 @@
-josegpt-server
+bocachica
 ==============
-	configuration for my web server
+	configuration for my ocean
 
 notes
 -----
-	* run acme-client {josegpt.com,ptserver.org}
-	* reload {httpd, relayd}
+	$ acme-client {josegpt.com,ptserver.org}
+	$ reload {httpd, relayd}
