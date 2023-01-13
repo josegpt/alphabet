@@ -4,5 +4,5 @@ bocachica
 
 notes
 -----
-	$ acme-client {josegpt.com,ptserver.org}
+	$ acme-client {josegpt.com,ptserver.org,statik.place}
 	$ reload {httpd, relayd}
