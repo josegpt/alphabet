@@ -4,5 +4,5 @@ bocachica
 
 notes
 -----
-	$ acme-client {josegpt.com,mtaveras.com,hogar.do,statik.place}
-	$ reload {httpd, relayd}
+	# acme-client -vF {josegpt.com,mtaveras.com}
+	# rcctl reload {httpd, relayd}
