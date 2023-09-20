@@ -4,5 +4,5 @@ alphabet
 
 notes
 -----
-	# acme-client -vF {josegpt.com,mtaveras.com,inventan.do}
+	# acme-client -vF {josegpt.com,mtaveras.com,redhex.org,redhex.net,redhex.dev}
 	# rcctl reload {httpd, relayd}
