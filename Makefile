@@ -4,7 +4,7 @@ all: alphabet
 
 alphabet:
 	@mkdir -p ${PREFIX}
-	cp -fp {acme-client,httpd,relayd}.conf ${PREFIX}
+	@cp -fp {acme-client,httpd,relayd}.conf ${PREFIX}
 
 install: all
 
