@@ -1,8 +1,8 @@
 alphabet
 ========
-	configuration for my alphabet
+	configuration for my alphabet.
 
 notes
 -----
-	# acme-client -vF {josegpt.com,mtaveras.com,redhex.org,redhex.net,redhex.dev }
+	# acme-client -vF {josegpt.com,mtaveras.com,redhex.org,redhex.net,redhex.dev}
 	# rcctl reload {httpd, relayd}
