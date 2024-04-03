@@ -1,14 +1,14 @@
-PREFIX ?=	${DESTDIR}/etc
+PREFIX?=	${DESTDIR}/etc
 
-all: alphabet
+all: install
 
 alphabet:
-	@mkdir -p ${PREFIX}
-	@cp -fp {acme-client,httpd,relayd}.conf ${PREFIX}
+	mkdir -p ${PREFIX}
+	cp -fp httpd.conf ${PREFIX}
 
 install: all
 
 uninstall:
-	@rm -f ${PREFIX}/{acme-client,httpd,relayd}.conf
+	rm -f ${PREFIX}/httpd.conf
 
-.PHONY: all alphabet install uninstall
+.PHONY: all install uninstall

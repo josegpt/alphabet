@@ -1,8 +1,12 @@
-alphabet
-========
-	configuration for my alphabet.
+httpd.conf
+==========
+	httpd config.
 
-notes
+usage
 -----
-	# acme-client -vF {josegpt.com,mtaveras.com,redhex.org,redhex.net,redhex.dev}
-	# rcctl reload {httpd, relayd}
+	# rcctl enable httpd
+	# rcctl start httpd
+
+depends on
+----------
+	* httpd
