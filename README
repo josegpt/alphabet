@@ -10,3 +10,7 @@ usage
 depends on
 ----------
 	* httpd
+
+license
+-------
+	isc
