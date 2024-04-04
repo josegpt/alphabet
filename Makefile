@@ -7,6 +7,6 @@ install:
 	cp -fp httpd.conf ${PREFIX}
 
 uninstall:
-	rm -f ${PREFIX}/httpd.conf
+	rm -f ${PREFIX}/httpd.conf ${HTDOCSDIR}/*.html
 
 .PHONY: all install uninstall
